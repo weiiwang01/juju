@@ -308,4 +308,7 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace gopkg.in/yaml.v2 => github.com/juju/yaml/v2 v2.0.0
+replace (
+	github.com/juju/charm/v12 => github.com/weiiwang01/charm/v12 v12.0.0-20240710075716-3e99b7b40ce9
+	gopkg.in/yaml.v2 => github.com/juju/yaml/v2 v2.0.0
+)
